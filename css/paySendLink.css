@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* .usericon */
+.usericon{
+    width: 100%;
+    overflow: hidden;
+}
+.usericon a{
+    float: right;
+    display: block;
+    padding: 80px 0px 0px 0px;
+}
+
+.usericon a img{
+    width: 90px;
+    height: 80px;
+}
+
+/* activity */
+.constword{
+    width: 100%;
+    color:black;
+    font-size: 80px;
+    padding:80px 0px 80px 80px; 
+}
+
+/* section */
+.constword1{
+    width: 100%;
+    color:#9CA2A4;
+    font-size: 40px;
+    padding: 0px 0px 80px 80px;
+}
+
+footer{
+    bottom: 5%;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer div{
+    float: left;
+    width: 34%;
+    padding: 5% 8%;
+    margin: 0 auto;
+}
+
+footer div .Request{
+    display: block;
+    width: 100%;
+    font-size: 40px;
+    color: #7633FF;
+    background-color: white;
+    border-radius: 150px;
+    padding:10% 0;
+    border: 0.05px solid gray;
+    box-shadow: 0px 5px 5px gray;
+}
+footer div .Send{
+    display: block;
+    width: 100%;
+    font-size: 40px;
+    color: white;
+    background-color: #7633FF;
+    border-radius: 120px;
+    padding:10% 0;
+    border: 0.05px solid gray;
+    box-shadow: 0px 5px 5px gray;
+}
